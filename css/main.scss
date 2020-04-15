@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Segoe';
+    src: url(../assets/Segoe/Regular.woff);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe', sans-serif;
+    color: white;
+
+    #bg {
+        background: #1e3664;
+        background: linear-gradient(130deg, #142d4c 0%, #435ab6 80%);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -1;
+      }
+}
+
+@media (min-width: 320px){
+
+}
