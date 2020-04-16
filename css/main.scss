@@ -1,6 +1,14 @@
 @font-face {
-    font-family: 'Segoe';
-    src: url(../assets/Segoe/Regular.woff);
+    font-family: 'Segoe_Regular';
+    src: url("../assets/Segoe/Regular.woff") format("woff");
+}
+@font-face {
+    font-family: 'Segoe_Light';
+    src: url("../assets/Segoe/Light.woff") format("woff");
+}
+@font-face {
+    font-family: 'Segoe_Bold';
+    src: url("../assets/Segoe/Bold.woff") format("woff");
 }
 
 html, body {
@@ -9,17 +17,82 @@ html, body {
 }
 
 body {
-    font-family: 'Segoe', sans-serif;
-    color: white;
+    background-color: #142D4C;
+    background: linear-gradient(160deg, #142D4C -1%, #435AB6 53%);
+    min-width: 100vw;
+    min-height: 100vh;
+    text-align: center;
+}
 
-    #bg {
-        background: #1e3664;
-        background: linear-gradient(130deg, #142d4c 0%, #435ab6 80%);
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        z-index: -1;
-      }
+.email-form {
+    margin: 26px auto;
+    input::placeholder {
+        color: #9fa3a7;
+        font-family: 'Segoe_Light';
+        font-size: 16px;
+        font-weight: normal;
+        letter-spacing: 0;
+        padding: 10px 151px 11px 11px;
+    }
+    .email-input {
+        width: 188px;
+        height: 45px;
+        border: none;
+        border-radius: 8px 0 0 8px;
+        padding: 0px;
+        vertical-align: top;
+    }
+    .email-button {
+        width: 92px ;
+        height: 45px;
+        background-color: #f05638;
+        color: #ffffff;
+        font-family: 'Segoe_Bold';
+        font-size: 14px;
+        letter-spacing: 2.8px;
+        border: none;
+        border-radius: 0 8px 8px 0;
+    }
+}
+
+h3 {
+    width: 280px;
+    color: #ffffff;
+    font-family: 'Segoe_Light';
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0;
+    margin: 23px auto;
+}
+
+.header {
+    padding-top: 40px;
+}
+
+.hero-left {
+    padding-top: 9px;
+}
+
+.logo {
+    width: 132px;
+    height: 42px;
+    object-fit: contain;
+}
+
+p {
+    width: 280px;
+    color: #ffffff;
+    opacity: 0.7;
+    font-family: 'Segoe_Regular';
+    font-size: 16px;
+    line-height: 24px;
+    margin: 9px auto;
+}
+
+.phones-mobile {
+    width: 221px;
+    height: 184px;
+    object-fit: contain;
 }
 
 @media (min-width: 320px){
