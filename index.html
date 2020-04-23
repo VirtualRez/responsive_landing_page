@@ -11,18 +11,26 @@
 <body>
     <div class="container">
         <header class="header">
-            <img src="img/contoso.svg" class="logo" alt="Contoso">
+            <img src="assets/img/contoso.svg" class="logo" alt="Contoso">
         </header>
+
         <div class="hero-left">
-            <img src="img/phones-mobile.png" srcset="img/phones-mobile@2x.png 2x,
-             img/phones-mobile@3x.png 3x" class="phones-mobile">
+            <picture>
+                <source class="small-img" media="(max-width: 799px)"
+                    srcset="assets/img/phones-mobile.png, assets/img/phones-mobile@2x.png 2x, assets/img/phones-mobile@3x.png 3x">
+                <source media="(min-width: 800px)"
+                    srcset="assets/img/iphones-final.png, assets/img/iphones-final@2x.png 2x, assets/img/iphones-final@3x.png 3x">
+                <img src="assets/img/iphones-final.png" class="phones-mobile" alt="Mobile">
+            </picture>
         </div>
+
         <div class="hero-right">
             <h3>Curabitur lobortis id lorem id bibendum ut id consectetur.</h3>
             <p>Vestibulum rutrum quam vitae fringilla tincidunt amet suspendisse nec
                 tortor.</p>
             <form class="email-form" action="#">
-                <input class="email-input" type="text" placeholder="Your 0365 email" name="search"><button class="email-button" type="submit">SEND</button>
+                <input class="email-input" type="text" placeholder="Your 0365 email" name="search"><button
+                    class="email-button" type="submit">SEND</button>
             </form>
         </div>
     </div>
