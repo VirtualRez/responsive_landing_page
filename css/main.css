@@ -146,10 +146,10 @@ p {
     -ms-grid-row: 1;
     -ms-grid-column: 2;
     grid-area: header;
-    padding: 0;
+    padding-top: 0;
   }
   .header .logo {
-    padding: 164px 0 29px 167px;
+    padding: 164px 0 0 167px;
   }
   .hero-left {
     -ms-grid-row: 1;
@@ -167,7 +167,7 @@ p {
   }
   .hero-right h3 {
     width: 645px;
-    margin: 0;
+    margin: -22px 0 0 0;
     font-size: 48px;
     font-weight: 100;
     line-height: 58px;
