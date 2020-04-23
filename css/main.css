@@ -39,28 +39,24 @@ body {
   color: #9fa3a7;
   font-family: 'Segoe_Regular';
   font-size: 16px;
-  padding: 10px 151px 11px 11px;
 }
 
 .email-form input:-ms-input-placeholder {
   color: #9fa3a7;
   font-family: 'Segoe_Regular';
   font-size: 16px;
-  padding: 10px 151px 11px 11px;
 }
 
 .email-form input::-ms-input-placeholder {
   color: #9fa3a7;
   font-family: 'Segoe_Regular';
   font-size: 16px;
-  padding: 10px 151px 11px 11px;
 }
 
 .email-form input::placeholder {
   color: #9fa3a7;
   font-family: 'Segoe_Regular';
   font-size: 16px;
-  padding: 10px 151px 11px 11px;
 }
 
 .email-form .email-input {
@@ -70,7 +66,7 @@ body {
   height: 45px;
   border: none;
   border-radius: 8px 0 0 8px;
-  padding: 0;
+  padding: 10px 151px 11px 11px;
   vertical-align: top;
 }
 
@@ -187,23 +183,20 @@ p {
   }
   .email-form input::-webkit-input-placeholder {
     font-size: 20px;
-    padding: 15px 233px 16px 20px;
   }
   .email-form input:-ms-input-placeholder {
     font-size: 20px;
-    padding: 15px 233px 16px 20px;
   }
   .email-form input::-ms-input-placeholder {
     font-size: 20px;
-    padding: 15px 233px 16px 20px;
   }
   .email-form input::placeholder {
     font-size: 20px;
-    padding: 15px 233px 16px 20px;
   }
   .email-form .email-input {
     width: 298px;
     height: 55px;
+    padding: 15px 130px 16px 20px;
   }
   .email-form .email-button {
     width: 122px;
