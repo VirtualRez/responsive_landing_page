@@ -66,7 +66,7 @@ body {
   height: 45px;
   border: none;
   border-radius: 8px 0 0 8px;
-  padding: 10px 60px 11px 11px;
+  padding: 13px 0 11px 11px;
   vertical-align: top;
 }
 
@@ -92,7 +92,7 @@ h3 {
   font-weight: 100;
   line-height: 28px;
   letter-spacing: 0;
-  margin: 23px auto;
+  margin: 14px 0 9px 20px;
 }
 
 .header {
