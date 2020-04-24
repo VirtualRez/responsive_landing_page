@@ -1,7 +1,7 @@
 # Landing Page
 ### by Alfredo Canales
 ```
-Generated with Javascript, jQuery, HTML5, CSS and Bootstrap.
+Generated with Html5 and SCSS/CSS.
 ```
 # Link
 https://virtualrez.github.io/responsive_landing_page/
