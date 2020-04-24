@@ -132,8 +132,8 @@ p {
     text-align: left;
   }
   .container {
-    min-height: 769px;
-    max-height: 769px;
+    min-height: 759px;
+    max-height: 759px;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 2fr;
@@ -167,7 +167,7 @@ p {
   }
   .hero-right h3 {
     width: 645px;
-    margin: -22px 0 0 0;
+    margin: -19px 0 0 0;
     font-size: 48px;
     font-weight: 100;
     line-height: 58px;
@@ -197,7 +197,7 @@ p {
   .email-form .email-input {
     width: 298px;
     height: 55px;
-    padding: 15px 130px 16px 20px;
+    padding: 21px 0 16px 20px;
   }
   .email-form .email-button {
     width: 122px;

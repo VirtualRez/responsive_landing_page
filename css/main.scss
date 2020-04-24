@@ -107,8 +107,8 @@ p {
     }
 
     .container {
-        min-height: 769px;
-        max-height: 769px;
+        min-height: 759px;
+        max-height: 759px;
         display: grid;
         grid-template-columns: 1fr 2fr;
         grid-template-rows: 1fr 2fr;
@@ -137,7 +137,7 @@ p {
 
         h3 {
             width: 645px;
-            margin: -22px 0 0 0;
+            margin: -19px 0 0 0;
             font-size: 48px;
             font-weight: 100;
             line-height: 58px;
@@ -164,7 +164,7 @@ p {
         .email-input {
             width: 298px;
             height: 55px;
-            padding: 15px 130px 16px 20px;
+            padding: 21px 0 16px 20px;
         }
 
         .email-button {
